@@ -2,6 +2,12 @@ import styled from 'styled-components'
 
 export const Container = styled.button`
     width: 100%;
+    display: flex; 
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+
     background-color: ${({ theme }) => theme.COLORS.PINK};
     color: ${({ theme }) => theme.COLORS.GRAY_300};
 
@@ -14,6 +20,8 @@ export const Container = styled.button`
 
     font-size: 1.6rem;
     font-weight: 500;
+
+    transition: 0.2s;
 
     &:hover {
         background-color: ${({ theme }) => theme.COLORS.GRAY_500};

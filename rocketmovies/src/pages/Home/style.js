@@ -9,5 +9,23 @@ export const Container = styled.div`
     grid-template-areas: 
     "header"
     "content";
-    grid-area: content;
+
+    > main {
+        overflow-y: auto;
+        grid-area: content;
+        max-width: 105.6rem;
+        margin: 4.8rem auto;
+
+        > .title-movie {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 3.6rem;
+
+            > .button-container {
+                width: 20rem;
+            }
+        }
+    }
 `
