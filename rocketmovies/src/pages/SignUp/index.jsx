@@ -4,6 +4,7 @@ import { ButtonText } from "../../components/ButtonText"
 import { Input } from "../../components/Input"
 import { FiMail, FiLock, FiUser } from 'react-icons/fi'
 import { FaArrowLeft } from "react-icons/fa"
+import { Link } from 'react-router-dom'
 
 export function SignUp() {
     return(
@@ -26,7 +27,9 @@ export function SignUp() {
                     </Button>
 
                 <div class="button-wrapper">
-                    <ButtonText Icon={FaArrowLeft} title="Voltar para o login" />
+                    <Link to="/">
+                        <ButtonText Icon={FaArrowLeft} title="Voltar para o login" />
+                    </Link>
                 </div>
             </Form>
 

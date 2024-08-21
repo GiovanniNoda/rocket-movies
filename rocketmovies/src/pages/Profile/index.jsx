@@ -4,6 +4,7 @@ import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
 import { FaArrowLeft } from "react-icons/fa"
 import { FiUser, FiMail, FiLock, FiCamera } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
 
 export function Profile() {
     return(

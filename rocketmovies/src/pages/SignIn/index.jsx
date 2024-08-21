@@ -23,7 +23,7 @@ export function SignIn() {
                     </Button>
 
                 <div class="button-wrapper">
-                    <ButtonText title="Criar conta" />
+                    <ButtonText title="Criar conta"  />
                 </div>
             </Form>
 

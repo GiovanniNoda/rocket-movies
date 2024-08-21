@@ -5,6 +5,7 @@ import { Input } from '../../components/Input'
 import { Marker } from '../../components/Markers'
 import { Button } from '../../components/Button'
 import { FaArrowLeft } from "react-icons/fa"
+import { Link } from 'react-router-dom'
 
 export function Create() {
     return(

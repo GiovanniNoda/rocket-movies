@@ -3,6 +3,7 @@ import { Header } from '../../components/Header'
 import { Button } from '../../components/Button'
 import { Movie } from '../../components/Movies' 
 import { AiOutlinePlus } from "react-icons/ai"
+import { Link } from 'react-router-dom'
 
 export function Home() {
   return(
@@ -13,7 +14,9 @@ export function Home() {
           <h2>Meus filmes</h2>
 
           <div class="button-container">
+            <Link to="/create">
             <Button> <AiOutlinePlus /> Adicionar filmes</Button>
+            </Link>
           </div>
         </div>
 
