@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.button`
     all: unset;
+    
     color: ${({ theme }) => theme.COLORS.PINK};
 
     display: flex;

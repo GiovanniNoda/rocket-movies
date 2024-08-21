@@ -4,13 +4,13 @@ import { ThemeProvider } from 'styled-components'
 import GlobalStyles from './styles/global'
 import theme from './styles/theme'
 
-import { Create } from './pages/Create'
+import { Preview } from './pages/Preview'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <Create />
+      <Preview />
     </ThemeProvider>
   </StrictMode>,
 )
