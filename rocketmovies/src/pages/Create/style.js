@@ -12,7 +12,8 @@ export const Container = styled.div`
 
    > main {
         grid-area: content;
-        width: 105.6rem;
+        width: 100%;
+        max-width: 105.6rem;
         margin: 4.0rem auto;
         display: flex;
         flex-flow: column nowrap;
