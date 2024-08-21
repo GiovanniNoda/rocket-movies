@@ -22,5 +22,9 @@ export const Container = styled.div`
         grid-template-areas: 
         "header"
         "content";
+
+        button {
+            margin-top: 4rem;
+        }
     }
 `

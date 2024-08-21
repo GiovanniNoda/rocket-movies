@@ -15,7 +15,7 @@ export function Home() {
 
           <div class="button-container">
             <Link to="/create">
-            <Button> <AiOutlinePlus /> Adicionar filmes</Button>
+              <Button> <AiOutlinePlus /> Adicionar filmes</Button>
             </Link>
           </div>
         </div>

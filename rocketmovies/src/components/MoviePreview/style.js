@@ -88,5 +88,6 @@ export const Container = styled.div`
 
     > p {
         color: ${({ theme }) => theme.COLORS.WHITE};
+        text-align: justify;
     }
 `

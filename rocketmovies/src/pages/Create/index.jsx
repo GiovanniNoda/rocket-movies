@@ -13,7 +13,9 @@ export function Create() {
             <Header />
 
             <main>
-                <ButtonText title="Voltar" Icon={FaArrowLeft} />
+                <Link to="/">
+                    <ButtonText title="Voltar" Icon={FaArrowLeft} />
+                </Link>
 
                 <h1>Novo filme</h1>
 

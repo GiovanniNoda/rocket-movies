@@ -10,7 +10,9 @@ export function Preview() {
         <Container>
             <Header />
             <main>
-                <ButtonText title="Voltar" Icon={FaArrowLeft} />
+                <Link to="/">
+                    <ButtonText title="Voltar" Icon={FaArrowLeft} />
+                </Link>
                 <MoviePreview title="Interestellar" />
             </main>
         </Container>
