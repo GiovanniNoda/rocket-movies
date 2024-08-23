@@ -1,5 +1,5 @@
 import { Input } from '../Input'
-import { Container, Profile } from './style'
+import { Container, Profile, Form } from './style'
 import { Link } from 'react-router-dom'
 
 export function Header() {
@@ -7,7 +7,9 @@ export function Header() {
         <Container>
             <h1>RocketMovies</h1>
 
-            <Input placeholder="Pesquisar pelo título" type="search" />
+            <Form>
+                <Input placeholder="Pesquisar pelo título" type="search" />
+            </Form>
 
             <Profile to="/profile">
                 <div>

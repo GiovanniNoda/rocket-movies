@@ -1,4 +1,4 @@
-import { Container } from "./style"
+import { Container, Form } from "./style"
 import { Header } from '../../components/Header'
 import { ButtonText } from '../../components/ButtonText'
 import { Input } from '../../components/Input'
@@ -17,33 +17,27 @@ export function Create() {
                     <ButtonText title="Voltar" Icon={FaArrowLeft} />
                 </Link>
 
-                <h1>Novo filme</h1>
-
-                <div class="input-wrapper">
-                    <Input placeholder="Título" type="text" />
-
-                    <Input placeholder="Sua nota (de 0 a 5)" type="number" />
-                </div>
-
-                <textarea placeholder="Observações"></textarea>
-
-                <h2>Marcadores</h2>
-
-                <div class="markers-wrapper">
-                    <Marker type="text" value="React" />
-
-                    <Marker isNew placeholder="Novo marcador" />
-                </div>
-
-                <div class="button-wrapper">
-                    <Button>
-                        Excluir filme
-                    </Button>
-
-                    <Button>
-                        Salvar alterações
-                    </Button>
-                </div>
+                <Form>
+                    <h1>Novo filme</h1>
+                    <div class="input-wrapper">
+                        <Input placeholder="Título" type="text" />
+                        <Input placeholder="Sua nota (de 0 a 5)" type="number" />
+                    </div>
+                    <textarea placeholder="Observações"></textarea>
+                    <h2>Marcadores</h2>
+                    <div class="markers-wrapper">
+                        <Marker type="text" value="React" />
+                        <Marker isNew placeholder="Novo marcador" />
+                    </div>
+                    <div class="button-wrapper">
+                        <Button>
+                            Excluir filme
+                        </Button>
+                        <Button>
+                            Salvar alterações
+                        </Button>
+                    </div>
+                </Form>
             </main>
         </Container>
     )

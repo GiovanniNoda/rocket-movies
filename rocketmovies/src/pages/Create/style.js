@@ -18,7 +18,12 @@ export const Container = styled.div`
         display: flex;
         flex-flow: column nowrap;
 
-        h1 {
+       
+   }
+`
+
+export const Form = styled.form`
+     h1 {
             color: ${({ theme }) => theme.COLORS.WHITE};
             font-size: 3.6rem;
             margin-top: 2.4rem;
@@ -76,5 +81,4 @@ export const Container = styled.div`
             margin-top: 1.6rem;
             margin-bottom: 4.0rem;
         }
-   }
 `

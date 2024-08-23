@@ -51,3 +51,8 @@ export const Profile = styled.div`
         border: 1px solid ${({ theme }) => theme.COLORS.GRAY_300};
     }
 `
+
+export const Form = styled.form`
+    width: 100%;
+    max-width: 63rem;
+`
