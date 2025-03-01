@@ -1,2 +1,2 @@
-# projeto-rocket-movies
- Projeto Rocket Movies desenvolvido no curso Rcketseat utilizando o react
+# rocket-movies
+Project developed in the Rocketseat online course, React was used.
